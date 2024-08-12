@@ -250,12 +250,6 @@ section {
     vertical-align: middle;
 }
 
-@media (max-width: 768px) {
-    .ficha-tecnica {
-        width: 95%;
-    }
-}
-
 .article-content {
     display: flex;
     flex-direction: row; 
