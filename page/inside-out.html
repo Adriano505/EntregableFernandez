@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Del revés 2 (Inside Out 2)</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Del revés 2 (Inside Out 2)</h2>
+        <div class="article-content">
+            <img src="../asset/intensa.png" alt="Intensamente" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Riley, ahora adolescente, enfrenta una reforma en la Central de sus emociones. Alegría, Tristeza, Ira, Miedo y Asco deben adaptarse a la llegada de nuevas emociones: Ansiedad, Vergüenza, Envidia y Ennui. ¿Cómo manejarán este inesperado cambio?</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Inside Out 2</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>Estrenada el 11/06/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>96 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Kelsey Mann</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>200.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>1.555.889.769 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.disney.es/peliculas/del-reves-2" target="_blank"><img src="../asset/icons/fast-forward-btn-fill.svg" alt="House"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

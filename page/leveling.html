@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Solo Leveling</h2>
+        <div class="article-content">
+            <img src="../asset/Solito.png" alt="Solo Leveling" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Lo que no te mata te hace más fuerte, pero en el caso de Sung Jinwoo, lo que lo mató lo hizo más fuerte. Después de ser brutalmente asesinado por monstruos en una mazmorra de alto rango, Jinwoo regresó con el Sistema, un programa que solo él puede ver y que eleva su nivel en todos los sentidos. Ahora, está decidido a descubrir los secretos detrás de sus poderes y la mazmorra que los engendró.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Solo leveling</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>Estrenada el 06/01/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Temporadas</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Episodio</th>
+                <td>12</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Shunsuke Nakashige</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Japón</td>fd
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+

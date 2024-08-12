@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kill Boy</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Kill Boy</h2>
+        <div class="article-content">
+            <img src="../asset/kill.png" alt="Kill Boy" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Boy (Bill Skarsgård) es un joven que deberá enfrentarse a la desquiciada matriarca de una corrupta dinastía postapocalíptica que lo dejó huérfano, sordo y sin voz. Tras vivir una trágica infancia, un enigmático chamán (Yayan Ruhian) le convertirá en un instrumento de venganza y lo soltará en su lejana distopía en vísperas de la matanza anual de disidentes. Intentando encontrar su lugar, Boy se unirá a un grupo de resistencia a la vez que mantendrá intensas discusiones con el fantasma de su rebelde hermana pequeña.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Boy Kills World</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>En cines desde 24/04/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>110 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Moritz Mohr</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>18.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>3.139.717 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.instagram.com/boykillsworld/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/BoyKillsWorld" target="_blank"><img src="../asset/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://x.com/bkwmovie" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

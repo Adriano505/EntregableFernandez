@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gru 4. Mi villano favorito</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Gru 4. Mi villano favorito</h2>
+        <div class="article-content">
+            <img src="../asset/mivi.png" alt="Mi villano favorito 4" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Gru, Lucy y las niñas -Margo, Edith y Agnes- dan la bienvenida a un nuevo miembro en la familia: Gru Junior, que parece llegar con el propósito de ser un suplicio para su padre. Gru tendrá que enfrentarse en esta ocasión a su nueva némesis Maxime Le Mal y su sofisticada y malévola novia Valentina, lo que obligará a la familia a tener que darse a la fuga. Cuarta entrega de 'Gru, mi villano favorito'.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Mi Villano Favorito 4</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>En cines desde 20/06/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>94 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Chris Renaud</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>100.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>752.657.353 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.universalpictures.es/micro/dm4" target="_blank"><img src="../asset/icons/fast-forward-btn-fill.svg" alt="House"></a>
+                    <a href="https://www.instagram.com/minions/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/minions" target="_blank"><img src="../asset/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://x.com/Minions" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

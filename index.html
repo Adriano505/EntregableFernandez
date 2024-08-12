@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine y Series</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>iVeo</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='series.html'">Series</button>
+            <button class="btn" onclick="location.href='peliculas.html'">Películas</button>
+            <button class="btn" onclick="location.href='about.html'">Nosotros</button>
+        </div>
+    </nav>
+    <main>
+        <section id="estrenos">
+            <h2 class="section-title">Estrenos de Cine</h2>
+            <div class="cards-container">
+                <a href="page/bad-boys.html" class="card">
+                    <img src="asset/badb.png" alt="Bad Boys">
+                    <p class="heading">Bad Boys</p>
+                </a>
+                <a href="page/gru.html" class="card">
+                    <img src="asset/mivi.png" alt="Mi villano favorito">
+                    <p class="heading">Mi villano favorito 4</p>
+                </a>
+                <a href="page/twisters.html" class="card">
+                    <img src="asset/torniau.png" alt="Tornados">
+                    <p class="heading">Twisters</p>
+                </a>
+                <a href="page/inside-out.html" class="card">
+                    <img src="asset/intensa.png" alt="Intensamente">
+                    <p class="heading">Del revés 2</p>
+                </a>
+                <a href="page/losinfa.html" class="card">
+                    <img src="asset/infa.png" alt="Los Infalibles">
+                    <p class="heading">Los infalibles</p>
+                </a>
+                <a href="page/hitman.html" class="card">
+                    <img src="asset/hitman.png" alt="Hit Man">
+                    <p class="heading">Hit Man</p>
+                </a>
+            </div>
+        </section>
+        <section id="series">
+            <h2 class="section-title">Series Recomendadas</h2>
+            <p class="content">Reseñas y recomendaciones de series.</p>
+            <div class="cards-container">
+                <a href="page/fallout.html" class="card">
+                    <img src="asset/falli.png" alt="Fallout">
+                    <p class="heading">Fallout</p>
+                </a>
+                <a href="page/shogun.html" class="card">
+                    <img src="asset/sho.png" alt="Shogun">
+                    <p class="heading">Shogun</p>
+                </a>
+                <a href="page/leveling.html" class="card">
+                    <img src="asset/Solito.png" alt="Solo Leveling">
+                    <p class="heading">Solo Leveling</p>
+                </a>
+                <a href="page/acolyte.html" class="card">
+                    <img src="asset/acol.png" alt="The Acolyte">
+                    <p class="heading">The Acolyte</p>
+                </a>
+                <a href="page/avatar.html" class="card">
+                    <img src="asset/avatar.png" alt="Avatar: La leyenda de Aang">
+                    <p class="heading">Avatar</p>
+                </a>
+                <a href="page/gentlemen.html" class="card">
+                    <img src="asset/gentelman.png" alt="The Gentlemen: La serie">
+                    <p class="heading">The Gentlemen</p>
+                </a>
+            </div>
+        </section>
+        <section id="peliculas">
+            <h2 class="section-title">Peliculas</h2>
+            <p class="content">Reseñas y recomendaciones de Peliculas.</p>
+            <div class="cards-container">
+                <a href="page/kungfu.html" class="card">
+                    <img src="asset/kun.png" alt="Kung Fu Panda 4">
+                    <p class="heading">Kung Fu Panda 4</p>
+                </a>
+                <a href="page/dune.html" class="card">
+                    <img src="asset/dune2.png" alt="Dune 2">
+                    <p class="heading">Dune 2</p>
+                </a>
+                <a href="page/godzilla.html" class="card">
+                    <img src="asset/Godzilla.png" alt="Godzilla y Kong: El nuevo imperio">
+                    <p class="heading">Godzilla y Kong</p>
+                </a>
+                <a href="page/mad.html" class="card">
+                    <img src="asset/mad.png" alt="Furiosa: De la saga Mad Max">
+                    <p class="heading">Furiosa: Mad Max</p>
+                </a>
+                <a href="page/roadhouse.html" class="card">
+                    <img src="asset/duro.png" alt="Road House (De profesión: duro)">
+                    <p class="heading">De profesión: duro</p>
+                </a>
+                <a href="page/madame.html" class="card">
+                    <img src="asset/madam.png" alt="Madame Web">
+                    <p class="heading">Madame Web</p>
+                </a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos resevados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

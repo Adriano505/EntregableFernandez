@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Acolyte</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+    <section class="article">
+        <h2 class="title-article">The Acolyte</h2>
+        <div class="article-content">
+            <img src="../asset/acol.png" alt="The Acolyte" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Cien años antes del alzamiento del Imperio, la Orden Jedi y la República Galáctica gozan de prosperidad tras siglos sin guerras. Pero ahora la investigación de una oleada de estremecedores crímenes enfrentará a un maestro jedi con una peligrosa guerrera de su pasado.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>The Acolyte</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>En emisión</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Temporadas</th>
+                <td>1</td>
+            </tr>
+            <tr>
+                <th>Episodios</th>
+                <td>8</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Leslye Headland</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>España Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.disneyplus.com/es-419/browse/entity-a5c84b7d-fd4e-42c8-95e3-960e73e1a71e" target="_blank"><img src="../asset/icons/fast-forward-btn-fill.svg" alt="Home"></a>
+                    <a href="https://www.instagram.com/officialacolyte/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://x.com/OfficialAcolyte" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

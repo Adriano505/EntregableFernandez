@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furiosa: De la saga Mad Max</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Furiosa: De la saga Mad Max</h2>
+        <div class="article-content">
+            <img src="../asset/mad.png" alt="Furiosa: De la saga Mad Max" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>En un mundo postapocalíptico donde todo ha perdido su valor, los pocos supervivientes se guían por la ley del más fuerte. Sin aprecio por la vida, lo único que despierta un brutal interés es la gasolina, sinónimo de poder y objetivo de bandas armadas hasta los dientes y sin escrúpulos. En este contexto conoceremos la historia de la arrebatadoramente despiadada, salvaje y joven Furiosa, quien cae en manos de una horda de motoristas y debe sobrevivir a muchas pruebas mientras reúne los medios para encontrar el camino de vuelta a casa. Precuela de 'Mad Max: Furia en la carretera' (2015).</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Furiosa: A Mad Max Saga</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>Estrenada el 22/05/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>148 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>George Miller</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Australia, Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>170.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>172.775.791 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.primevideo.com/-/es/detail/Furiosa-de-la-saga-Mad-Max/0IWKU5WR4D6YUBAWYEBIT6M4IU" target="_blank"><img src="../asset/icons/fast-forward-btn-fill.svg" alt="House"></a>
+                    <a href="https://www.instagram.com/madmaxsaga/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/MadMaxSaga" target="_blank"><img src="../asset/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://x.com/MadMaxMovie" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+

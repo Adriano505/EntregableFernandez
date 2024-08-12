@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Godzilla y Kong: El nuevo imperio</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Godzilla y Kong: El nuevo imperio</h2>
+        <div class="article-content">
+            <img src="../asset/Godzilla.png" alt="Godzilla y Kong" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Una aventura cinematográfica completamente nueva, que enfrentará al todopoderoso Kong y al temible Godzilla contra una colosal amenaza desconocida escondida dentro de nuestro mundo. La nueva y épica película profundizará en las historias de estos titanes, sus orígenes y los misterios de Isla Calavera y más allá, mientras descubre la batalla mítica que ayudó a forjar a estos seres extraordinarios y los unió a la humanidad para siempre.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Godzilla x Kong: The New Empire</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>Estrenada el 27/03/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>115 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Adam Wingard</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>150.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>567.156.493 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.instagram.com/godzillaxkong/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/GodzillaXKong" target="_blank"><img src="../asset/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://x.com/GodzillaXKong" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
+

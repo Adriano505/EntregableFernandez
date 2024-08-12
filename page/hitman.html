@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hit Man. Asesino por casualidad</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Hit Man. Asesino por casualidad</h2>
+        <div class="article-content">
+            <img src="../asset/hitman.png" alt="Hit man" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Gary Johnson es el asesino profesional más buscado de Nueva Orleans. Para sus clientes, es el sicario ideal. Pero si le pagas para que elimine a un cónyuge infiel o a un jefe maltratador, será mejor que tengas cuidado: trabaja para la policía. Cuando rompe el protocolo para ayudar a una mujer desesperada que intenta huir de un marido maltratador, se convierte en uno de sus falsos personajes, se enamora de la mujer y coquetea con convertirse él mismo en un criminal.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Hit Man</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>Estrenada el 16/05/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>116 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Richard Linklater</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>8.800.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>5.101.673 $</td>
+            </tr>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twisters</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cine y Series</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+
+    <section class="article">
+        <h2 class="title-article">Twisters</h2>
+        <div class="article-content">
+            <img src="../asset/torniau.png" alt="Tornados" class="article-image">
+            <div class="article-text">
+                <h3 class="article-subtitle">Sinopsis</h3>
+                <p>Kate Cooper, una ex cazadora de tormentas perseguida por un devastador encuentro con un tornado, es por llamada su amigo Javi de regreso a las llanuras para probar un nuevo e innovador sistema de seguimiento. Allí, se cruza con la encantadora e imprudente superestrella de las redes sociales Tyler Owens y su su estridente equipo. A medida que la temporada de tormentas se intensifica, se desatan fenómenos terroríficos nunca vistos, y Kate, Tyler y sus equipos competidores se encuentran directamente en el camino de múltiples sistemas de tormentas que convergen sobre Oklahoma en lo que será una lucha por sobrevivir.</p>
+            </div>
+        </div>
+    </section>
+    <section class="ficha-tecnica">
+        <h2>Ficha técnica</h2>
+        <table>
+            <tr>
+                <th>Título Original</th>
+                <td>Twisters</td>
+            </tr>
+            <tr>
+                <th>Estado</th>
+                <td>En cines desde 10/07/2024</td>
+            </tr>
+            <tr>
+                <th>Año</th>
+                <td>2024</td>
+            </tr>
+            <tr>
+                <th>Duración</th>
+                <td>123 min.</td>
+            </tr>
+            <tr>
+                <th>Director</th>
+                <td>Lee Isaac Chung</td>
+            </tr>
+            <tr>
+                <th>País</th>
+                <td>Estados Unidos</td>
+            </tr>
+            <tr>
+                <th>Presupuesto</th>
+                <td>155.000.000 $</td>
+            </tr>
+            <tr>
+                <th>Ingresos</th>
+                <td>274.535.650 $</td>
+            </tr>
+            <tr>
+                <th>Enlaces</th>
+                <td>
+                    <a href="https://www.instagram.com/twistersmovie/" target="_blank"><img src="../asset/icons/instagram.svg" alt="Instagram"></a>
+                    <a href="https://www.facebook.com/twistersmovie" target="_blank"><img src="../asset/icons/facebook.svg" alt="Facebook"></a>
+                    <a href="https://x.com/Twistersmovie" target="_blank"><img src="../asset/icons/twitter-x.svg" alt="Twitter"></a>
+                </td>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

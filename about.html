@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iVeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>iVeo</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='../index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='../estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='../series.html'">Series</button>
+            <button class="btn" onclick="location.href='../peliculas.html'">Peliculas</button>
+            <button class="btn" onclick="location.href='../about.html'">Nosotros</button>
+        </div>
+    </nav>
+        <section id="about-me">
+            <h2 class="section-title">Acerca de Nosotros</h2>
+            <p class="content">
+                Bienvenido a iVeo, tu sitio de referencia para descubrir las últimas novedades en el mundo del cine y las series. 
+                Nos apasiona el séptimo arte y las historias que cautivan y entretienen. 
+                Aquí encontrarás reseñas detalladas, recomendaciones personalizadas y las noticias más recientes sobre los estrenos de cine y las series más populares.
+            </p>
+            <p class="content">
+                Nuestro objetivo es crear una comunidad de amantes del cine y las series, donde puedas compartir tus opiniones, discutir teorías y descubrir nuevos contenidos emocionantes.
+                ¡Únete a nosotros y sé parte de esta aventura cinematográfica!
+            </p>
+        </section>  
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>

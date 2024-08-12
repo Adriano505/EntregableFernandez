@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iVeo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>iVeo</h1>
+    </header>
+    <nav>
+        <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+        <div class="nav-links">
+            <button class="btn" onclick="location.href='index.html'">Inicio</button>
+            <button class="btn" onclick="location.href='estrenos.html'">Estrenos de Cine</button>
+            <button class="btn" onclick="location.href='series.html'">Series</button>
+            <button class="btn" onclick="location.href='peliculas.html'">Películas</button>
+            <button class="btn" onclick="location.href='about.html'">Nosotros</button>
+        </div>
+    </nav>
+    <section id="estrenos">
+        <h2 class="section-title">Series</h2>        
+        <!-- Tarjetas -->
+        <div class="cards-container">
+            <a href="page/fallout.html" class="card">
+                <img src="asset/falli.png" alt="Bad Boys">
+                <div class="cards-content">
+                <p class="heading">Fallout</p>
+                </div>
+            </a>
+            <a href="page/shogun.html" class="card">
+                <img src="asset/sho.png" alt="Shogun">
+                <p class="heading">Shogun</p>
+            </a>
+            <a href="page/leveling.html" class="card">
+                <img src="asset/Solito.png" alt="Solo Leveling">
+                <p class="heading">Solo Leveling</p>
+            </a>
+            <a href="page/acolyte.html" class="card">
+                <img src="asset/acol.png" alt="The Acolyte">
+                <p class="heading">The Acolyte</p>
+            </a>
+            <a href="page/avatar.html" class="card">
+                <img src="asset/avatar.png" alt="Avatar: La leyenda de Aang">
+                <p class="heading">Avatar</p>
+            </a>
+            <a href="page/gentlemen.html" class="card">
+                <img src="asset/gentelman.png" alt="The Gentlemen: La serie">
+                <p class="heading">The Gentlemen</p>
+            </a>
+            <a href="page/twd.html" class="card">
+                <img src="asset/twd.png" alt="The Walking Dead: The Ones Who Live">
+                <p class="heading">The Walking Dead</p>
+            </a>
+            <a href="page/ted.html" class="card">
+                <img src="asset/ted.png" alt="Ted">
+                <p class="heading">TED</p>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Cine y Series. Todos los derechos reservados.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
